@@ -1,0 +1,11 @@
+# QEC stack — pinned to the versions used during development (Python 3.13).
+# Regenerate exact transitive pins with:
+#   ./.venv/Scripts/python.exe -m pip freeze > requirements.lock.txt
+stim==1.16.0
+sinter==1.16.0
+pymatching==2.4.0
+ldpc==2.4.1
+numpy==2.5.0
+scipy==1.18.0
+matplotlib==3.11.0
+pytest==9.1.1

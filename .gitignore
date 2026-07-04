@@ -1,0 +1,22 @@
+# Virtual environment
+.venv/
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+
+# Sinter sampling cache / large data dumps
+*.sinter
+data/*.csv
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Private working notes (journal, internal planning docs) — not for the repo.
+PROJECT_LOG.md
+docs/
